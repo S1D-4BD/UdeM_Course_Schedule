@@ -50,7 +50,7 @@ if sigle:
         calendar(events=calendar_events, options=calendar_options, custom_css=mon_style)
 
     else:
-        st.warning("Aucune donnée trouvée.")
+        st.warning("Aucun horaire existant")
 
 else:
-    st.info("Entrez un sigle pour commencer.")
+    st.info("Entrez un sigle pour commencer")
